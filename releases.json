@@ -1087,6 +1087,7 @@
   },
   "glib-networking": {
     "versions": [
+      "2.80.1-1",
       "2.80.0-1",
       "2.78.0-1"
     ]
@@ -3543,6 +3544,17 @@
     ],
     "versions": [
       "0.64-1"
+    ]
+  },
+  "stc": {
+    "dependency_names": [
+      "stc"
+    ],
+    "program_names": [
+      "checkscoped"
+    ],
+    "versions": [
+      "5.0-1"
     ]
   },
   "stduuid": {

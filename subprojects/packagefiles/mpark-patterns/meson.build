@@ -7,10 +7,6 @@ project(
     meson_version: '>=1.6.1',
 )
 
-if meson.get_compiler('cpp').get_id() == 'msvc'
-    add_global_arguments('/Zc:__cplusplus', language: 'cpp')
-endif
-
 install_subdir(
     'include',
     install_dir: get_option('includedir'),
